@@ -60,6 +60,7 @@ img {
     padding: 0; 
     border: 0; 
     margin: 0; 
+    overflow-x: hidden;
 }
 
 #sign-up {
@@ -84,4 +85,139 @@ img {
     font-size: 48px;
     color: #f9faf8; 
     font-weight: bolder;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px; 
+}
+
+#title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937
+}
+
+.information {
+    padding: 0; 
+    margin: 0; 
+    border: 0;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image-2 {
+    margin-left: 0;
+    height: 200px; 
+    width: 200px; 
+    
+}
+
+.text {
+   width: 200px; 
+}
+
+.subtext {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937; 
+    width: 50%;
+    justify-content: center;
+}
+
+#thor {
+    font-weight: bold;
+    margin-left: 500px;
+}
+
+.quote-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 500px;
+}
+
+.final-section {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-section {
+    height: 100px; 
+    width: 60%;
+    background-color: #3882f6;
+    display: flex; 
+    flex-direction: row;
+}
+
+.button {
+    width: 30%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.call {
+    width: 70%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+#action {
+    margin: 0; 
+    margin-top: 40px; 
+    color: white; 
+}
+
+#click {
+    margin: 0; 
+    margin-left: 100px; 
+    color: white; 
+}
+
+#button {
+    background-color: #3882f6;
+    flex: 0 1 auto;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #f9faf8;
+    font-weight: bold;
+    padding-bottom: 2px;
+    border-color: white;
+}
+
+.footer {
+    height: 80px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#copyright {
+    color: white;
 }
